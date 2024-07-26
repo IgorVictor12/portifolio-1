@@ -1,0 +1,68 @@
+*{ /* resetando config de margem e padding na pagina toda*/
+    margin: 0;
+    padding: 0;
+}
+body{ /* todo o conteudo visual da pagina */
+    background-color: rgb(0, 0, 0); /* cor de fundo*/
+    height: 100vh; /*100% tamanho da tela*/
+    box-sizing: border-box; /* limitar a margem */
+    color: rgb(226, 62, 21); /* cor da fonte*/
+}
+h1{
+    color:white;
+    margin-bottom: 20px;
+}
+p{
+    color:white;
+}
+
+
+.destaque_titulo{ /*strong*/
+    color:#09d7e6;/*cor do titulo*/
+}
+
+.apresentacao{ /* main*/
+    margin: 10% 15%; /*topo/ fundo - direita/esquerda*/
+    display: flex; 
+    /* flex-direction: row; section (col esq) e img(col */
+    align-items: center; /* colunas centralizadas*/
+    justify-content: space-between; /*espaço entre as colunas*/
+    width: 1000px/*tamanho da seção*/
+}
+
+.apresentacao_texto{ /* section - coluna esquerda*/
+    display: flex; /* caixas h1 p dv */
+    flex-direction: column;
+    width: 50%; /*secao ocupa 50% de largura da caixa main*/
+    gap: 40px; /*espaco entre as caixas dentro da coluna*/
+
+
+
+}
+.apresentacao_links{
+    display: flex; disposição do displa
+    justify-content: space-evenly;
+}
+
+.apresentacao_texto_texto{
+    font-size: 20px;/*tamanho da fonte*/
+    margin-right: 15px;/*margem a direita*/
+}
+
+.apresentacao_texto_titulo{
+    font-size: 30px;/*tamanho da fonte do titulo*/
+}
+
+.apresentacao_links_link{ /*tag a - botoes */
+    background-color: #090de6; /* cor de fundo*/
+    width: 280px; /*largura do botao*/
+    border-radius: 30px;/*raio da borda*/
+    font-size: 22px;/*tamanho da fonte*/
+    font-weight: 600;/*altura da fonte*/
+    padding: 21.5px 0; /*espaco entre texto e borda do botao
+    text-decoration: #ade8f4; /*tira o sublinhado*/
+    color: #ffffff;/*cor do texto*/
+    font-family: 'Roboto', 'Roboto';/*tipo de fonte*/
+    text-align: center;/*alinhamento do conteudo*/
+}
+
